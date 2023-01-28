@@ -523,6 +523,21 @@ video {
   background-color: rgb(22 101 52 / var(--tw-bg-opacity));
 }
 
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
+.bg-orange-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 247 237 / var(--tw-bg-opacity));
+}
+
+.bg-orange-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -544,4 +559,14 @@ video {
 .ring-emerald-500 {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(16 185 129 / var(--tw-ring-opacity));
+}
+body{
+  display:grid;
+  height: 100vh;
+  grid-template-columns: 15% 1fr;
+  grid-template-rows: 18% 1fr;
+}
+.dashboard{
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
