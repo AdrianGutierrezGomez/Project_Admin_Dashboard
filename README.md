@@ -7,4 +7,4 @@ Project idea from The Odin Project: https://www.theodinproject.com/lessons/node-
 
 
 ## Sources: 
-
+1. SVGs: https://pictogrammers.com/library/mdi/
